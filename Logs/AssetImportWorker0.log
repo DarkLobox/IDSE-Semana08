@@ -1,0 +1,683 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 8023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/DarkLobox/ISDE Semana 8
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55885
+Successfully changed project path to: C:/Users/DarkLobox/ISDE Semana 8
+C:/Users/DarkLobox/ISDE Semana 8
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/DarkLobox/ISDE Semana 8/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     4011 MB
+    Driver:   26.20.100.7262
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002346 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1286ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (513ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1293ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1056ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 3.852200 ms (FindLiveObjects: 0.222300 ms CreateObjectMapping: 0.078600 ms MarkObjects: 3.477800 ms  DeleteObjects: 0.072400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0020.png
+  artifactKey: Guid(2483e91b39d280d45863aca70f4668ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0020.png using Guid(2483e91b39d280d45863aca70f4668ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9f373323b6b5333ab5117f985e83a1') in 0.143115 seconds 
+  Import took 0.147921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0120.png
+  artifactKey: Guid(cffbbdd2301d6ff42944fa5bc4db458b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0120.png using Guid(cffbbdd2301d6ff42944fa5bc4db458b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf25c61489c067a15758f6964b163b98') in 0.026469 seconds 
+  Import took 0.030509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0010.png
+  artifactKey: Guid(8a2526acf23e8cb40b7d417e53b3a513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0010.png using Guid(8a2526acf23e8cb40b7d417e53b3a513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f7f1c6762f9aa489b70ab3a819846f') in 0.026701 seconds 
+  Import took 0.030926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0100.png
+  artifactKey: Guid(f991bb1c64436e84ea69bfff45855eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0100.png using Guid(f991bb1c64436e84ea69bfff45855eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ad77f50e70cc5a7e410bdb0b489839') in 0.026680 seconds 
+  Import took 0.030302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK
+  artifactKey: Guid(a8298d2d3d535c141a07711eca3c9710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK using Guid(a8298d2d3d535c141a07711eca3c9710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cf7febfeee3e49874797df701e480b') in 0.007139 seconds 
+  Import took 0.011371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0110.png
+  artifactKey: Guid(63888c930c89c8645b08d1df70f2ae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0110.png using Guid(63888c930c89c8645b08d1df70f2ae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5acce706228be4cbd3a2d8027438495') in 0.027769 seconds 
+  Import took 0.034092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0090.png
+  artifactKey: Guid(30668f14d6154a043be7e6ae27fe96f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0090.png using Guid(30668f14d6154a043be7e6ae27fe96f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e2b4f2e5f718cc03725ebeb2bd1939') in 0.024515 seconds 
+  Import took 0.028320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0040.png
+  artifactKey: Guid(dc00fc712cf478f4a9bd59684ddb5cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0040.png using Guid(dc00fc712cf478f4a9bd59684ddb5cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cde043eff8398cc2df2d595c49a55b6') in 0.039856 seconds 
+  Import took 0.043616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0060.png
+  artifactKey: Guid(1947ff3f0b348ad42a2713f783800cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0060.png using Guid(1947ff3f0b348ad42a2713f783800cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340918cc017660851f0071ee44daeb1c') in 0.029160 seconds 
+  Import took 0.033312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0130.png
+  artifactKey: Guid(1fbcf5fa154d0e64c97894ce6b709b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0130.png using Guid(1fbcf5fa154d0e64c97894ce6b709b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad824c1555eab8cafa00e8095e17aaf') in 0.025227 seconds 
+  Import took 0.029906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0140.png
+  artifactKey: Guid(9c8a7be8c5960db418524fbe3f210d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0140.png using Guid(9c8a7be8c5960db418524fbe3f210d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f417114699045b4c0aeb1adacaa4275') in 0.038351 seconds 
+  Import took 0.042709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0000.png
+  artifactKey: Guid(09381aff69361ca418536d1af11f14d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0000.png using Guid(09381aff69361ca418536d1af11f14d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065a99c4e47876c569a8bf0f343c0819') in 0.025791 seconds 
+  Import took 0.030074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0150.png
+  artifactKey: Guid(027bd768b54341045ae63fb94f297acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0150.png using Guid(027bd768b54341045ae63fb94f297acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef94d599e23b1dcac446472a073276da') in 0.025421 seconds 
+  Import took 0.029192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0030.png
+  artifactKey: Guid(c10228b66aa841842b4017ee53b549ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0030.png using Guid(c10228b66aa841842b4017ee53b549ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4210daadc0393856706df3620f79d3d0') in 0.025790 seconds 
+  Import took 0.029835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0070.png
+  artifactKey: Guid(4211297a3a360f6429f1e5edf14f160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0070.png using Guid(4211297a3a360f6429f1e5edf14f160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca4c6fcf6e82c8e5cfde31c53a32940') in 0.027638 seconds 
+  Import took 0.031900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0050.png
+  artifactKey: Guid(f5395656bf6d2e842a2378ae498d62bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0050.png using Guid(f5395656bf6d2e842a2378ae498d62bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84aa235c0cb804c19783cdda45c91618') in 0.025217 seconds 
+  Import took 0.028962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0080.png
+  artifactKey: Guid(148f0ae7e8a533e49bb072e11b877061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0080.png using Guid(148f0ae7e8a533e49bb072e11b877061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a862bc150e5be6942f8702472ec8c67c') in 0.024942 seconds 
+  Import took 0.029253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.134515 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Animations/H_M_Anim.controller
+  artifactKey: Guid(d58ab665b2a680a4daaa6eb2df767f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Animations/H_M_Anim.controller using Guid(d58ab665b2a680a4daaa6eb2df767f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567ead04311999946c1ebbd61febdd87') in 0.018815 seconds 
+  Import took 0.024366 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.606 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1607ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1333ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 4.693300 ms (FindLiveObjects: 0.721300 ms CreateObjectMapping: 0.164000 ms MarkObjects: 3.780900 ms  DeleteObjects: 0.025500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1007.993167 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0000.png
+  artifactKey: Guid(26b80ae2ae2330245a5797e5d18e08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0000.png using Guid(26b80ae2ae2330245a5797e5d18e08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593d8a9d89f7549b106a6869dce612b1') in 0.075827 seconds 
+  Import took 0.080743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0010.png
+  artifactKey: Guid(78c287ba715503b45b9a9672e0169d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0010.png using Guid(78c287ba715503b45b9a9672e0169d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f113c12eb37bc15a3ad4991c0a737261') in 0.028201 seconds 
+  Import took 0.032251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0070.png
+  artifactKey: Guid(a9f1bc8ecb4ec494284daacdef474037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0070.png using Guid(a9f1bc8ecb4ec494284daacdef474037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2732aaddec8a0d0f1bfc68903a22dd8') in 0.028358 seconds 
+  Import took 0.033358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0120.png
+  artifactKey: Guid(589ac7db04b46594285cbf558a5c1326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0120.png using Guid(589ac7db04b46594285cbf558a5c1326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e5fec9a0765785494692743a30c09b') in 0.025090 seconds 
+  Import took 0.034757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001530 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0150.png
+  artifactKey: Guid(6164ee0b719a93042b54d050cdc9392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0150.png using Guid(6164ee0b719a93042b54d050cdc9392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afa254e282426a1c4ff44ecd643369b') in 0.032020 seconds 
+  Import took 0.040150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0080.png
+  artifactKey: Guid(81b5b524049a55e4db033536fcd05aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0080.png using Guid(81b5b524049a55e4db033536fcd05aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22c06faf88b88ed74153dce095738e4') in 0.026534 seconds 
+  Import took 0.032770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0020.png
+  artifactKey: Guid(98b40f7b312ad6644b0461c4873097cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0020.png using Guid(98b40f7b312ad6644b0461c4873097cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2222dc7c138c71b0191469d9e082e0e9') in 0.027678 seconds 
+  Import took 0.032796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0040.png
+  artifactKey: Guid(80fcd21bad8225041baab3b8ed5f3c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0040.png using Guid(80fcd21bad8225041baab3b8ed5f3c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb523fa3a885ba9dcbdb6a2057a6b24') in 0.024282 seconds 
+  Import took 0.029750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0110.png
+  artifactKey: Guid(e3e8980a769310d4687b71f5e2d814cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0110.png using Guid(e3e8980a769310d4687b71f5e2d814cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94039c97e5fc735b3deb1f8c24bfeadd') in 0.033496 seconds 
+  Import took 0.038404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0140.png
+  artifactKey: Guid(98a7fc81744d13348af9633d612f47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0140.png using Guid(98a7fc81744d13348af9633d612f47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a1a6f854c27a2d762175a7a15810d4') in 0.034517 seconds 
+  Import took 0.040770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0060.png
+  artifactKey: Guid(b5470a7cb0aa2b544b04c46afe0a6732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0060.png using Guid(b5470a7cb0aa2b544b04c46afe0a6732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3580e793a3fecdd9927703046531d16b') in 0.028148 seconds 
+  Import took 0.034595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0050.png
+  artifactKey: Guid(4ad37b34989d4004faf7c31a8ea01106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0050.png using Guid(4ad37b34989d4004faf7c31a8ea01106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca04eac58497d810a899c10462b5cf86') in 0.027922 seconds 
+  Import took 0.032487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0100.png
+  artifactKey: Guid(dd258c245a6683b4ebe3e2aa77d5da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0100.png using Guid(dd258c245a6683b4ebe3e2aa77d5da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5c4f3b81cc3bca1606c3416cca6f6c') in 0.026009 seconds 
+  Import took 0.030643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0130.png
+  artifactKey: Guid(d8555e7b19e4a5640a4ba65c2abbf559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0130.png using Guid(d8555e7b19e4a5640a4ba65c2abbf559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc239ceb195a63e708c3fddf4237e2d') in 0.028724 seconds 
+  Import took 0.033919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0030.png
+  artifactKey: Guid(bc89fd46ddf39094c91e46411a0e231d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0030.png using Guid(bc89fd46ddf39094c91e46411a0e231d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b521d1d9c68b56005d1c589e3c046f') in 0.027627 seconds 
+  Import took 0.033759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0090.png
+  artifactKey: Guid(c9b3ef6f616ed284cbf1b218d00bebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0090.png using Guid(c9b3ef6f616ed284cbf1b218d00bebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e5dd7c7e7472f551b68bbd32061980') in 0.030524 seconds 
+  Import took 0.035404 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1150ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (947ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 4.388000 ms (FindLiveObjects: 0.312800 ms CreateObjectMapping: 0.167300 ms MarkObjects: 3.883300 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003315 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1245ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1015ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2546.
+Total: 3.493300 ms (FindLiveObjects: 0.211400 ms CreateObjectMapping: 0.069700 ms MarkObjects: 3.192900 ms  DeleteObjects: 0.018200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1262ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1058ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2549.
+Total: 4.096800 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.080800 ms MarkObjects: 3.791200 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.285 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1286ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1039ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2552.
+Total: 3.347200 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.079100 ms MarkObjects: 3.048400 ms  DeleteObjects: 0.031700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
